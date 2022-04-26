@@ -10,20 +10,20 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="...">
+            <div class="carousel-item active">
+                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="...">
+                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="...">
+                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
@@ -72,7 +72,7 @@
 <section class="best-seller-section">
     <div class="container marketing">
 
-        <div class="row featurette">
+        <div class="row featurette mb-5">
             <div class="col-md-7">
                 <h2 class="featurette-heading">CHEVROLET <span class="text-muted">Camaro</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
@@ -82,7 +82,7 @@
             </div>
         </div>
 
-        <div class="row featurette">
+        <div class="row featurette mb-5">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">LAMBORGHINI <span class="text-muted">Aventador</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
@@ -92,7 +92,7 @@
             </div>
         </div>
 
-        <div class="row featurette">
+        <div class="row featurette mb-5">
             <div class="col-md-7">
                 <h2 class="featurette-heading">FORD <span class="text-muted">Mustang</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
