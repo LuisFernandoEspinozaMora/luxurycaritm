@@ -11,19 +11,19 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="...">
+                <img class="carousel-img" src="https://dev-luxurycars.pantheonsite.io/wp-content/uploads/2022/04/carousel1.webp" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="...">
+                <img class="carousel-img" src="https://dev-luxurycars.pantheonsite.io/wp-content/uploads/2022/04/carousel1.webp" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="...">
+                <img class="carousel-img" src="https://dev-luxurycars.pantheonsite.io/wp-content/uploads/2022/04/carousel1.webp" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
