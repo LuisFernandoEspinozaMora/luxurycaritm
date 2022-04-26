@@ -84,7 +84,7 @@
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">CHEVROLET <span class="text-muted">Camaro</span></h2>
+                <h2 class="featurette-heading">LAMBORGHINI <span class="text-muted">Aventador</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
             </div>
             <div class="col-md-5 order-md-1">
@@ -94,7 +94,7 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">CHEVROLET <span class="text-muted">Camaro</span></h2>
+                <h2 class="featurette-heading">FORD <span class="text-muted">Mustang</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
             </div>
             <div class="col-md-5">
