@@ -10,7 +10,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img class="carousel-img" src="https://dev-luxurycars.pantheonsite.io/wp-content/uploads/2022/04/carousel1.webp" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
@@ -82,8 +82,6 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
-
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">CHEVROLET <span class="text-muted">Camaro</span></h2>
@@ -93,8 +91,6 @@
                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://luxurycars.test/wp-content/uploads/2022/04/lamborghiniAventador.webp" alt="lamborghiniAventadorIndex">
             </div>
         </div>
-
-        <hr class="featurette-divider">
 
         <div class="row featurette">
             <div class="col-md-7">
