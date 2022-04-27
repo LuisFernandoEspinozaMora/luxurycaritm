@@ -104,8 +104,7 @@ footer {
     font-weight: 600;
     color: #E3E4E5;
     background-color: transparent;
-    border: 3px solid transparent;
-    border-color: #17E6FF;
+    border: 3px solid #17E6FF;
     border-radius: .75em;
 }
 
@@ -120,8 +119,17 @@ footer {
     background-color: #232426;
 }
 
+.tittle-decoration{
+    padding-bottom: 0.2em;
+    border-bottom: 3px solid #17E6FF;
+}
+
 .btn-up {
     font-size: 35px;
     text-decoration: none;
     color: #E3E4E5;
+}
+
+.btn-up:hover {
+    color: #17E6FF;
 }

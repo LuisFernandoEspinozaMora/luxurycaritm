@@ -48,20 +48,20 @@
         <div class="row">
             <div class="col-lg-4 text-center">
                 <img class="bd-placeholder-img brand-img-size" src="http://luxurycars.test/wp-content/uploads/2022/04/chevroletLogo.webp" alt="chevroletLogo">
-                <h2>Heading</h2>
-                <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                <h2>Chevrolet</h2>
+                <p>Encuentra nuevos caminos</p>
                 <button type="button" class="btn btn-luxury">Ver más</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
                 <img class="bd-placeholder-img brand-img-size" src="http://luxurycars.test/wp-content/uploads/2022/04/lamborghiniLogo-scaled.webp" alt="lamborghiniLogo">
-                <h2>Heading</h2>
-                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                <h2>Lamborghini</h2>
+                <p>Más cerca de las carreteras</p>
                 <button type="button" class="btn btn-luxury">Ver más</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
                 <img class="bd-placeholder-img brand-img-size" src="http://luxurycars.test/wp-content/uploads/2022/04/fordLogo.webp" alt="fordLogo">
-                <h2>Heading</h2>
-                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column</p>
+                <h2>Ford</h2>
+                <p>Llegá más lejos</p>
                 <button type="button" class="btn btn-luxury">Ver más</button>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
@@ -69,13 +69,14 @@
 </section>
 <!--brands-section-->
 
+<!--best-seller-section-->
 <section class="best-seller-section">
     <div class="container marketing">
 
         <div class="row featurette mb-5">
             <div class="col-md-7">
-                <h2 class="featurette-heading">CHEVROLET <span class="text-muted">Camaro</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">CHEVROLET</span> Camaro</h2>
+                <p class="lead">Fabricado con una arquitectura más pequeña y liviana que la generación anterior aprovecha al máximo sus proporciones, con un sistema de frenos más sensible, una mejor entrada y salida de curvas para un desempeño más ágil.</p>
             </div>
             <div class="col-md-5">
                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://luxurycars.test/wp-content/uploads/2022/04/chevroletCamaro.webp" alt="chevroletCamaroIndex">
@@ -84,8 +85,8 @@
 
         <div class="row featurette mb-5">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">LAMBORGHINI <span class="text-muted">Aventador</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">LAMBORGHINI</span> Aventador</h2>
+                <p class="lead">Lamborghini sabe perfectamente cómo afrontar los desafíos y por eso ha creado el Aventador SVJ. Para fusionar una tecnología de vanguardia con un diseño excepcional, sin transigir en nada. En un futuro gobernado por la tecnología se están perdiendo las emociones reales, pero en el futuro que estamos diseñando están siempre en primer plano, porque siempre es el ser humano quien conduce. </p>
             </div>
             <div class="col-md-5 order-md-1">
                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://luxurycars.test/wp-content/uploads/2022/04/lamborghiniAventador.webp" alt="lamborghiniAventadorIndex">
@@ -94,15 +95,16 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">FORD <span class="text-muted">Mustang</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">FORD</span> Mustang</h2>
+                <p class="lead">Desde hace más de 50 años, Ford ha cambiado la forma de contar con un vehículo listo para el trabajo pesado, con grandes capacidades, excelente desempeño y confianza con el lema: ¡Nacidos Ford, Nacidos Fuertes!</p>
             </div>
             <div class="col-md-5">
                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://luxurycars.test/wp-content/uploads/2022/04/fordMustang.webp" alt="fordMustangIndex">
             </div>
         </div>
+
     </div><!-- /.container -->
 </section>
-
+<!--best-seller-section-->
 
 <?php get_footer(); ?>
