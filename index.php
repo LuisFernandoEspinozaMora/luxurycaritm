@@ -92,7 +92,7 @@
             </div>
         </div>
 
-        <div class="row featurette mb-5">
+        <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">FORD <span class="text-muted">Mustang</span></h2>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
