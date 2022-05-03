@@ -8,7 +8,7 @@
 
         <div class="row featurette mb-5">
             <div class="col-md-7">
-                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">CHEVROLET</span> Camaro</h2>
+                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">"<?php the_field('titulo1')?>"</span> Camaro</h2>
                 <p class="lead">Fabricado con una arquitectura más pequeña y liviana que la generación anterior aprovecha al máximo sus proporciones, con un sistema de frenos más sensible, una mejor entrada y salida de curvas para un desempeño más ágil.</p>
             </div>
             <div class="col-md-5">

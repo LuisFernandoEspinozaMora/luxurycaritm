@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="http://luxurycars.test/wp-content/uploads/2022/04/carousel1.webp" alt="carousel_ford">
+                <img class="carousel-img" src="<?php the_field('slider2')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
                     <button type="button" class="btn btn-luxury-carousel">Reserva</button>
                 </div>
