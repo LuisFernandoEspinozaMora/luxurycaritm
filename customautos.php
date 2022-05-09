@@ -1,42 +1,143 @@
 <?php
 /* Template Name: Autos */
 ?>
+
 <?php get_header(); ?>
 
-<section class="best-seller-section">
-    <div class="container marketing">
-
-        <div class="row featurette mb-5">
-            <div class="col-md-7">
-                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">"<?php the_field('titulo1')?>"</span> Camaro</h2>
-                <p class="lead">Fabricado con una arquitectura más pequeña y liviana que la generación anterior aprovecha al máximo sus proporciones, con un sistema de frenos más sensible, una mejor entrada y salida de curvas para un desempeño más ágil.</p>
+<!--carousel-section -->
+<section class="carousel-section">
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="carousel-img" src="<?php the_field('publicity_slader01')?>" alt="carousel_ford">
+                <div class="carousel-caption d-none d-md-block">
+                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                </div>
             </div>
-            <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="<?php the_field('imagen1')?>" alt="chevroletCamaroIndex">
+            <div class="carousel-item">
+                <img class="carousel-img" src="<?php the_field('publicity_slader02')?>" alt="carousel_ford">
+                <div class="carousel-caption d-none d-md-block">
+                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-img" src="<?php the_field('publicity_slader03')?>" alt="carousel_ford">
+                <div class="carousel-caption d-none d-md-block">
+                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                </div>
             </div>
         </div>
-
-        <div class="row featurette mb-5">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">LAMBORGHINI</span> Aventador</h2>
-                <p class="lead">Lamborghini sabe perfectamente cómo afrontar los desafíos y por eso ha creado el Aventador SVJ. Para fusionar una tecnología de vanguardia con un diseño excepcional, sin transigir en nada. En un futuro gobernado por la tecnología se están perdiendo las emociones reales, pero en el futuro que estamos diseñando están siempre en primer plano, porque siempre es el ser humano quien conduce. </p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="<?php the_field('imagen1')?>" alt="lamborghiniAventadorIndex">
-            </div>
-        </div>
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading mb-4"><span class="tittle-decoration">FORD</span> Mustang</h2>
-                <p class="lead">Desde hace más de 50 años, Ford ha cambiado la forma de contar con un vehículo listo para el trabajo pesado, con grandes capacidades, excelente desempeño y confianza con el lema: ¡Nacidos Ford, Nacidos Fuertes!</p>
-            </div>
-            <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="http://luxurycars.test/wp-content/uploads/2022/04/fordMustang.webp" alt="fordMustangIndex">
-            </div>
-        </div>
-
-    </div><!-- /.container -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel -->
 </section>
+<!--carousel-section -->
+
+<section class="container marketing">
+        <!--Colores-->
+        <h2 class="title-section">Modelo</h2>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carousel-vehiculos" src="<?php the_field('model_slader01')?>" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-vehiculos" src="<?php the_field('model_slader02')?>" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-vehiculos" src="<?php the_field('model_slader03')?>" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--caracteristicas-->
+    <section class="container marketing">
+        <h2 class="title-section">Caracteristica</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="img-caracteristica" src="<?php the_field('characteristic_img01')?>" alt="caract01">
+                    <h3 class="text-caracteristica"><?php the_field('characteristic_title01')?></h3>
+                    <p class="text-caracteristica"><?php the_field('characteristic_txt01')?></p>
+                </div>
+                <div class="col">
+                    <img class="img-caracteristica" src="<?php the_field('characteristic_img02')?>" alt="caract01">
+                    <h3 class="text-caracteristica">Caracteristica</h3>
+                    <p class="text-caracteristica">Lorem ipsum Lorem ipsum</p>
+                </div>
+                <div class="col">
+                    <img class="img-caracteristica" src="<?php the_field('characteristic_img03')?>" alt="caract01">
+                    <h3 class="text-caracteristica">Caracteristica</h3>
+                    <p class="text-caracteristica">Lorem ipsum Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Modelos-->
+    <section class="container marketing">
+        <h2 class="title-section">Modelos</h2>
+        <img class="img-modelos" src="http://luxurycaritm.test/wp-content/uploads/2022/04/carousel-2.webp" alt="modelo">
+    </section>
+
+    <!--Servicios-->
+    <section class="best-seller-section">
+        <div class="container servicios">
+            <div class="row">
+                <div class="col-6 col-sm-3">
+                    <i class="fa-solid fa-wrench"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt at</p>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <i class="fa-solid fa-truck-monster"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt at</p>
+                </div>
+
+                <!-- Force next columns to break to new line -->
+                <div class="w-100"></div>
+
+                <div class="col-6 col-sm-3">
+                    <i class="fa-solid fa-weight-hanging"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt at</p>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt at</p>
+                    <i class="fa-solid fa-taxi"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Galeria-->
+    <section class="container marketing">
+        <h2 class="title-section">Galeria</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="img-galeria" src="http://luxurycaritm.test/wp-content/uploads/2022/04/galeria-2-scaled.webp" alt="foto01">
+                </div>
+                <div class="col">
+                    <img class="img-galeria" src="http://luxurycaritm.test/wp-content/uploads/2022/04/carousel-3.webp" alt="foto01">
+                </div>
+                <div class="col">
+                    <img class="img-galeria" src="http://luxurycaritm.test/wp-content/uploads/2022/04/galeria-3-scaled.webp" alt="foto01">
+                </div>
+            </div>
+        </div>
+    </section>
 
 <?php get_footer(); ?>
