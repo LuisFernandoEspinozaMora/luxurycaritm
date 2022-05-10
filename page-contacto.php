@@ -49,8 +49,8 @@
         </div>
 
     </fieldset>
-
-    <input class="btn btn-luxury-carousel" type="submit" value="Enviar">
+    
+    <button type="submit" class="btn btn-luxury">Enviar</button>
 </form>
 </main>
 

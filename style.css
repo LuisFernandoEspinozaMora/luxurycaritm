@@ -187,15 +187,31 @@ footer {
 .contenedor {
     max-width: 100rem;
     margin: 0 50% 0 20%;
+    padding-top: 4rem;
   }
+
+
 
 .formulario h1{
     font-weight: 600
 }
 
-.contenedor fieldset,main{
-    padding-top: 5rem;
+.formulario .btn{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 7.6rem .5rem 2rem;
+    margin-top: 2rem;
 }
+
+.form-group label{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
 
 
 
