@@ -178,3 +178,27 @@ footer {
     height: 250px;
 }
 /*fin vehiculos*/
+
+
+/* Pagina de contacto*/
+
+
+
+.contenedor {
+    max-width: 100rem;
+    margin: 0 50% 0 20%;
+  }
+
+.formulario h1{
+    font-weight: 600
+}
+
+.contenedor fieldset,main{
+    padding-top: 5rem;
+}
+
+
+
+
+
+/* Fin de pagina de contacto*/
