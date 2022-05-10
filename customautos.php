@@ -49,9 +49,9 @@
 <section class="container marketing">
     <!--Colores-->
     <h2 class="title-section"><?php the_field('titulo1') ?></h2>
-    <p class="lead">Precio: <span class="precio">$<?php the_field('precio') ?></span></p>
+    <p class="lead"><?php the_field('txt_precio')?><span class="precio">$<?php the_field('precio') ?></span></p>
 
-    <p class="lead text-center">Colores disponibles</p>
+    <p class="lead text-center"><?php the_field('txt_colores') ?></p>
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
