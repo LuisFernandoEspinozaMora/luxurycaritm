@@ -15,21 +15,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="carousel-img" src="<?php the_field('publicity_slader01')?>" alt="carousel_ford">
+                <img class="carousel-img" src="<?php the_field('slider1')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtbtn')?></button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="<?php the_field('publicity_slader02')?>" alt="carousel_ford">
+                <img class="carousel-img" src="<?php the_field('slider1')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtbtn')?></button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="carousel-img" src="<?php the_field('publicity_slader03')?>" alt="carousel_ford">
+                <img class="carousel-img" src="<?php the_field('slider1')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtbtn')?></button>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
 
 <section class="container marketing">
         <!--Colores-->
-        <h2 class="title-section">Modelo</h2>
+        <h2 class="title-section"><?php the_field('titulo1')?></h2>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -66,7 +66,7 @@
     </section>
     <!--caracteristicas-->
     <section class="container marketing">
-        <h2 class="title-section">Caracteristica</h2>
+        <h2 class="title-section"><?php the_field('titulo2')?></h2>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -90,7 +90,7 @@
 
     <!--Modelos-->
     <section class="container marketing">
-        <h2 class="title-section">Modelos</h2>
+        <h2 class="title-section"><?php the_field('titulo3')?></h2>
         <img class="img-modelos" src="http://luxurycaritm.test/wp-content/uploads/2022/04/carousel-2.webp" alt="modelo">
     </section>
 
@@ -124,7 +124,7 @@
 
     <!--Galeria-->
     <section class="container marketing">
-        <h2 class="title-section">Galeria</h2>
+        <h2 class="title-section"><?php the_field('titulo4')?></h2>
         <div class="container">
             <div class="row">
                 <div class="col">
