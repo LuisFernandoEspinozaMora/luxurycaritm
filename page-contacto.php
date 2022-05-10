@@ -50,7 +50,7 @@
 
     </fieldset>
     
-    <button type="submit" class="btn btn-luxury">Enviar</button>
+    <div class="btn_centrado"><button type="submit" class="btn btn-luxury">Enviar</button></div>
 </form>
 </main>
 

@@ -203,8 +203,12 @@ footer {
     margin-left: 35%;
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 0.5rem 7.6rem .5rem 2rem;
+    align-items: center;
     margin-top: 2rem;
+}
+
+.btn_centrado{
+    display: flex;
 }
 
 .form-group label{
