@@ -135,48 +135,53 @@ footer {
 .btn-up:hover {
     color: #17E6FF;
 }
+
 /*vehiculos*/
-.sections{
+.sections {
     width: 100%;
     height: auto;
     margin-top: 5em;
 }
-.section-galeria{
+
+.precio {
+    color: #17E6FF;
+    font-weight: 700;
+}
+
+.section-galeria {
     width: 100%;
     height: auto;
     margin-top: 5em;
     margin-bottom: 5em;
 }
 
-.title-section
-{
+.title-section {
     font-size: 45px;
     margin-top: 1em;
-    margin-bottom: 1em;
-}
-.carousel-vehiculos{
-    width: 85%;
-    height: 600px;
 }
 
-.img-caracteristica{
+.img-caracteristica {
     margin-left: 3em;
     width: 300px;
     height: 250px;
 }
-.text-caracteristica{
+
+.text-caracteristica {
     margin-top: 0.5em;
     text-align: center;
 }
-.img-modelos{
+
+.img-modelos {
     width: 90%;
     height: 500px;
     object-fit: cover;
 }
-.img-galeria{
+
+.img-galeria {
     width: 300px;
     height: 250px;
 }
+
 /*fin vehiculos*/
 
 
@@ -188,15 +193,15 @@ footer {
     max-width: 100rem;
     margin: 0 50% 0 20%;
     padding-top: 4rem;
-  }
+}
 
 
 
-.formulario h1{
+.formulario h1 {
     font-weight: 600
 }
 
-.formulario .btn{
+.formulario .btn {
     display: block;
     text-transform: uppercase;
     text-align: center;
@@ -207,7 +212,7 @@ footer {
     margin-top: 2rem;
 }
 
-.form-group label{
+.form-group label {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -220,7 +225,7 @@ footer {
 /* Fin de pagina de contacto*/
 
 /*Pagina Reserva*/
-.colores{
+.colores {
     height: 70px;
     width: 70px;
     background-color: red;
@@ -228,34 +233,42 @@ footer {
     padding: 5 20px;
     margin: 0px 35px;
 }
-.C_reserva h1{
+
+.C_reserva h1 {
     font-weight: 600
 }
-.C_reserva h4{
+
+.C_reserva h4 {
     font-weight: 600
 }
-.C_reserva h5{
+
+.C_reserva h5 {
     font-weight: 300
 }
 
-.color_1{
+.color_1 {
     background-color: #02256D;
 }
-.color_2{
+
+.color_2 {
     background-color: #CECECE;
 }
-.color_3{
+
+.color_3 {
     background-color: #B32134;
 }
-.color_4{
+
+.color_4 {
     background-color: #021128;
 }
-.color_5{
+
+.color_5 {
     background-color: #D6AB4F;
 }
 
-.calc_container{
+.calc_container {
     background-color: #E5E5E5;
     color: #181818;
 }
+
 /*fin Pagina Reserva*/
