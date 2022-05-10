@@ -49,19 +49,32 @@
 <section class="container marketing">
         <!--Colores-->
         <h2 class="title-section"><?php the_field('titulo1')?></h2>
+        <p class="lead">Precio: <span class="precio">$<?php the_field('precio')?></span></p>
+
+        <p class="lead text-center">Colores disponibles</p>
+
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="carousel-vehiculos" src="<?php the_field('model_slader01')?>" class="d-block w-100" alt="...">
+                    <img class="carousel-img" src="<?php the_field('color_slader1')?>" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img class="carousel-vehiculos" src="<?php the_field('model_slader02')?>" class="d-block w-100" alt="...">
+                    <img class="carousel-img" src="<?php the_field('color_slader2')?>" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img class="carousel-vehiculos" src="<?php the_field('model_slader03')?>" class="d-block w-100" alt="...">
+                    <img class="carousel-img" src="<?php the_field('color_slader3')?>" class="d-block w-100" alt="...">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+        
 
     </section>
     <!--caracteristicas-->
@@ -88,11 +101,11 @@
         </div>
     </section>
 
-    <!--Modelos-->
-    <section class="container marketing">
+    <!--coloros-->
+  <section class="container marketing">
         <h2 class="title-section"><?php the_field('titulo3')?></h2>
-        <img class="img-modelos" src="http://luxurycaritm.test/wp-content/uploads/2022/04/carousel-2.webp" alt="modelo">
-    </section>
+        <img class="img-coloros" src"http://luxurycaritm.test/wp-content/uploads/2022/04/carousel-2.webp" alt="coloro">
+</section>
 
     <!--Servicios-->
     <section class="best-seller-section">
