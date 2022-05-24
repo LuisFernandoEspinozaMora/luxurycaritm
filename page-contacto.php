@@ -64,7 +64,7 @@
 
                 <p><span>Servicio de taller Tel:</span> 2547-5145</p>
 
-                <p><span>WhatsApp taller, enderezado y Pintura Tel:</span> +506 8529 3842</p>
+                <p><span>WhatsApp taller Tel:</span> +506 8529 3842</p>
             </div>
 
         </div>

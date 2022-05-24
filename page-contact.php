@@ -57,13 +57,13 @@
 
 
             <div class="information">
-                <p><span>Dirección:</span> 700 meter sur de Multiplaza Escazú</p>
+                <p><span>Direction:</span> 700 meter sur de Multiplaza Escazú</p>
 
-                <p><span>Showroom de ventas Tel:</span> 2547-5145</p>
+                <p><span>Showroom sales cellphone:</span> 2547-5145</p>
 
-                <p><span>Servicio de taller Tel:</span> 2547-5145</p>
+                <p><span>Workshop Services cellphone:</span> 2547-5145</p>
 
-                <p><span>WhatsApp taller, enderezado y Pintura Tel:</span> +506 8529 3842</p>
+                <p><span>Workshop WhatsApp cellphone:</span> +506 8529 3842</p>
             </div>
 
         </div>
