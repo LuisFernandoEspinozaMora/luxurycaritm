@@ -72,7 +72,6 @@
 <!--best-seller-section-->
 <section class="best-seller-section">
     <div class="container marketing">
-
         <div class="row featurette mb-5">
             <div class="col-md-7">
                 <h2 class="featurette-heading mb-4"><span class="tittle-decoration">CHEVROLET</span> Camaro</h2>
