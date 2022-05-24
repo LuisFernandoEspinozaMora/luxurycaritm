@@ -189,8 +189,6 @@ footer {
 
 /* Pagina de contacto*/
 
-
-
 .contenedor {
     max-width: 100rem;
     margin: 0 50% 0 20%;
@@ -200,7 +198,8 @@ footer {
 
 
 .formulario h1 {
-    font-weight: 600
+    font-weight: 600;
+    font-size: 3rem
 }
 
 .formulario .btn {
@@ -220,11 +219,9 @@ footer {
 }
 
 .form-group label{
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
 }
-
-
 
 
 
