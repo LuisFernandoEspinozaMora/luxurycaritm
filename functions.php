@@ -31,6 +31,14 @@
     ));
     
     add_filter( 'nav_menu_link_attributes', 'prefix_bs5_dropdown_data_attribute', 20, 3 );
+    
+    function wpdocs_theme_name_scripts() {
+        if(is_page_template('customreserva.php')){
+            wp_enqueue_script( 'script-reserva', get_template_directory_uri() . '/js/reserva.js', array(), '1.0.0', false );
+        }
+        
+    }
+    add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
 /**
  * Use namespaced data attribute for Bootstrap's dropdown toggles.
  *
