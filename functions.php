@@ -34,7 +34,7 @@
     
     function wpdocs_theme_name_scripts() {
         if(is_page_template('customreserva.php')){
-            wp_enqueue_script( 'script-reserva', get_template_directory_uri() . '/js/reserva.js', array(), '1.0.0', false );
+            wp_enqueue_script( 'script-reserva', get_template_directory_uri() . '/js/reserva.js', array(), '1.0.0', true );
         }
         
     }
