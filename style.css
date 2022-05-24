@@ -189,13 +189,30 @@ footer {
 
 /* Pagina de contacto*/
 
-.contenedor {
-    max-width: 100rem;
-    margin: 0 50% 0 20%;
-    padding-top: 4rem;
+.contact-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
 }
 
+.information{
+    padding-top: 1.5rem;
+}
 
+.information span{
+    font-weight: 600;
+    color: #17E6FF;
+}
+
+.contenedor {
+  max-width: 100rem;
+    margin: 0 20% 0 20%;
+    padding-top: 2rem;
+}
+
+.contenedor span {
+color: #17E6FF;
+}
 
 .formulario h1 {
     font-weight: 600;
@@ -221,6 +238,7 @@ footer {
 .form-group label{
     padding-top: 1rem;
     padding-bottom: .5rem;
+
 }
 
 
