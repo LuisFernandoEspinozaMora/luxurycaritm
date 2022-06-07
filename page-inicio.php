@@ -47,19 +47,19 @@
     <div class="container marketing">
         <div class="row">
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="http://luxurycars.test/wp-content/uploads/2022/04/chevroletLogo.webp" alt="chevroletLogo">
+                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img1')?>" alt="chevroletLogo">
                 <h2>Chevrolet</h2>
                 <p>Encuentra nuevos caminos</p>
                 <button type="button" class="btn btn-luxury">Ver más</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="http://luxurycars.test/wp-content/uploads/2022/04/lamborghiniLogo-scaled.webp" alt="lamborghiniLogo">
+                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img2')?>" alt="lamborghiniLogo">
                 <h2>Lamborghini</h2>
                 <p>Más cerca de las carreteras</p>
                 <button type="button" class="btn btn-luxury">Ver más</button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="http://luxurycars.test/wp-content/uploads/2022/04/fordLogo.webp" alt="fordLogo">
+                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img3')?>"fordLogo">
                 <h2>Ford</h2>
                 <p>Llegá más lejos</p>
                 <button type="button" class="btn btn-luxury">Ver más</button>
