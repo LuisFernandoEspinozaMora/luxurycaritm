@@ -13,19 +13,19 @@
             <div class="carousel-item active">
                 <img class="carousel-img" src="<?php the_field('slider1')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtBtn') ?></button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="carousel-img" src="<?php the_field('slider2')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtBtn') ?></button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="carousel-img" src="<?php the_field('slider3')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel">Reserva</button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtBtn') ?></button>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 <button type="button" class="btn btn-luxury"><?php the_field('txtBtn_marca2')?></button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img3')?>"fordLogo">
+                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img3')?>" alt="fordLogo">
                 <h2><?php the_field('nombre_marca3')?></h2>
                 <p><?php the_field('slogan_marca3')?></p>
                 <button type="button" class="btn btn-luxury"><?php the_field('txtBtn_marca3')?></button>
@@ -72,6 +72,7 @@
 <!--best-seller-section-->
 <section class="best-seller-section">
     <div class="container marketing">
+
         <div class="row featurette mb-5">
             <div class="col-md-7">
                 <h2 class="featurette-heading mb-4"><span class="tittle-decoration"><?php the_field('title1')?></span> <?php the_field('subtitle1')?></h2>
