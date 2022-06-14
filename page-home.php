@@ -47,19 +47,19 @@
     <div class="container marketing">
         <div class="row">
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img1')?>" alt="chevroletLogo">
+                <img class="bd-placeholder-img brand-img-size mb-5" src="<?php the_field('marca_img1')?>" alt="chevroletLogo">
                 <h2><?php the_field('nombre_marca1')?></h2>
                 <p><?php the_field('nombre_marca1')?></p>
                 <button type="button" class="btn btn-luxury"><?php the_field('txtbtn_marca1')?></button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img2')?>" alt="lamborghiniLogo">
+                <img class="bd-placeholder-img brand-img-size mb-5" src="<?php the_field('marca_img2')?>" alt="lamborghiniLogo">
                 <h2><?php the_field('nombre_marca2')?></h2>
                 <p><?php the_field('nombre_marca2')?></p>
                 <button type="button" class="btn btn-luxury"><?php the_field('txtbtn_marca2')?></button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
-                <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img3')?>" alt="fordLogo">
+                <img class="bd-placeholder-img brand-img-size mb-5" src="<?php the_field('marca_img3')?>" alt="fordLogo">
                 <h2><?php the_field('nombre_marca3')?></h2>
                 <p><?php the_field('nombre_marca3')?></p>
                 <button type="button" class="btn btn-luxury"><?php the_field('txtbtn_marca3')?></button>

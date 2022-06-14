@@ -142,13 +142,13 @@
     <h2 class="title-section"><?php the_field('titulo4') ?></h2>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col mb-5">
                 <img class="img-caracteristica" src="<?php the_field('galeria_img1') ?>" alt="foto01">
             </div>
-            <div class="col">
+            <div class="col mb-5">
                 <img class="img-caracteristica" src="<?php the_field('galeria_img2') ?>" alt="foto01">
             </div>
-            <div class="col">
+            <div class="col mb-5">
                 <img class="img-caracteristica" src="<?php the_field('galeria_img3') ?>" alt="foto01">
             </div>
         </div>
