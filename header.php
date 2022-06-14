@@ -23,7 +23,7 @@
 
         <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="http://luxurycars.test/">
+                    <a class="navbar-brand" href="/">
                         <img class="logo" src="https://dev-luxurycars.pantheonsite.io/wp-content/uploads/2022/04/logo.png" alt="logo">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
