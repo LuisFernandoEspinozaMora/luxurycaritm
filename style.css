@@ -18,6 +18,10 @@ footer {
     height: 50px;
 }
 
+.mob-menu{
+     display: none;
+}
+
 .navbar {
     background-color: #181818;
 }
@@ -300,5 +304,11 @@ color: #17E6FF;
 @media screen and (max-width:800px){
     footer {
         padding: 3em 1em;
+    }
+    
+    .mob-menu{
+        display: block;
+        color: #E3E4E5;
+        font-size: 1.5em;
     }
 }
