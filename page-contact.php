@@ -1,37 +1,60 @@
 <?php get_header(); ?>
 
-<main class="contenedor">
-    <form class="formulario">
+<main>
 
-        <h1>Contact us</h1>
-        <p>(<span>*</span>) Required fields</p>
+    <div>
+        <div class="hero formulario text-center">
+            <h1>contactenos</h1>
+        </div>
+    </div>
 
-        <div class="contact-area">
+    <div class="container information">
+        <div class="row text-center">
+            <div class="col">
+                <h3 class="fas fa-map-marker"></h3>
+                <p><span>Dirección:</span></p>
+                <p> 700 metros sur de Multiplaza Escazú</p>
+            </div>
+            <div class="col">
+                <h3 class="fas fa-phone-alt"></h3>
+                <p><span>Showroom de ventas Tel:</p>
+                <p></span> 2547 5145</p>
+            </div>
+            <div class="col">
+                <h3 class="fab fa-whatsapp"></h3>
+                <p><span>WhatsApp taller Tel:</span></p>
+                <p> +506 8529 3842</p>
+            </div>
+        </div>
+    </div>
 
-            <div class="fieldset-area">
+    <form class="contenedor formulario">
 
-                <fieldset>
+        <h3 class="text-center">llena esto si tienes alguna duda</h3>
 
+        <p>(<span>*</span>) campos obligatorios</p>
 
+        <div class="">
+
+            <div class="text-center">
+
+                <fieldset class="fieldset-area">
                     <div class="form-group">
-                        <label for="asunto">Detail</label>
-                        <input type="text" class="form-control" id="asunto">
+                        <!--<label for="asunto">Asunto</label>-->
+                        <input type="text" class="form-control" id="asunto" placeholder="Asunto">
                     </div>
 
                     <div class="form-group">
-                        <label for="nombre">Name  <span>*</span></label>
-                        <input type="text" class="form-control" id="nombre" required>
+                        <input type="text" class="form-control" id="nombre" required placeholder="Nombre *">
                     </div>
 
                     <div class="form-group">
-                        <label for="telefono">Cellphone  <span>*</span></label>
-                        <input type="tel" class="form-control" id="telefono" required>
+                        <input type="tel" class="form-control" id="telefono" required placeholder="Teléfono *">
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Branch office</label>
                         <select class="form-control" id="exampleFormControlSelect1" required>
-                            <option value="SJ" disabled selected>select an option</option>
+                            <option value="SJ" disabled selected>Seleccione una opción</option>
                             <option value="SJ">San Jose</option>
                             <option value="GU">Guanacaste</option>
                             <option value="LI">Limon</option>
@@ -42,34 +65,24 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">E-mail <span>*</span></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" required>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="E-mail *">
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" cols="20" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" cols="20" rows="3" placeholder="Mensaje"></textarea>
                     </div>
 
                 </fieldset>
-                <div class="btn_centrado"><button type="submit" class="btn btn-luxury">sent</button></div>
-            </div>
-
-
-            <div class="information">
-                <p><span>Direction:</span> 700 meter sur de Multiplaza Escazú</p>
-
-                <p><span>Showroom sales cellphone:</span> 2547-5145</p>
-
-                <p><span>Workshop Services cellphone:</span> 2547-5145</p>
-
-                <p><span>Workshop WhatsApp cellphone:</span> +506 8529 3842</p>
+                <div class="btn_centrado">
+                    <button type="submit" class="btn btn-luxury">Enviar</button>
+                </div>
             </div>
 
         </div>
-
-       
     </form>
+
+
+
 </main>
 
 <?php get_footer(); ?>

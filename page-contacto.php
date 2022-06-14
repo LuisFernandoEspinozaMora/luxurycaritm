@@ -37,7 +37,7 @@
 
         <div class="">
 
-            <div>
+            <div class="text-center">
 
                 <fieldset class="fieldset-area">
                     <div class="form-group">
@@ -74,12 +74,12 @@
                     </div>
 
                 </fieldset>
-                <div class="btn_centrado"><button type="submit" class="btn btn-luxury">Enviar</button></div>
+                <div class="btn_centrado">
+                    <button type="submit" class="btn btn-luxury">Enviar</button>
+                </div>
             </div>
 
         </div>
-
-
     </form>
 
 

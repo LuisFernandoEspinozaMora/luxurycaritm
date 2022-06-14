@@ -202,7 +202,7 @@ footer {
     background-position: center center;
     /* utiliza dos valores para centrar la  imagen*/
     height: 20rem;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,17 +247,16 @@ color: #17E6FF;
 .formulario .btn {
     display: block;
     text-transform: uppercase;
-    text-align: center;
-    margin-left: 35%;
     font-size: 1.5rem;
     font-weight: 700;
-    align-items: center;
     margin-top: 2rem;
 }
 
 
 .btn_centrado{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-group label{
