@@ -13,19 +13,19 @@
             <div class="carousel-item active">
                 <img class="carousel-img" src="<?php the_field('slider1')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtBtn') ?></button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtbtn') ?></button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="carousel-img" src="<?php the_field('slider2')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtBtn') ?></button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtbtn') ?></button>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="carousel-img" src="<?php the_field('slider3')?>" alt="carousel_ford">
                 <div class="carousel-caption d-none d-md-block">
-                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtBtn') ?></button>
+                    <button type="button" class="btn btn-luxury-carousel"><?php the_field('txtbtn') ?></button>
                 </div>
             </div>
         </div>
@@ -50,19 +50,19 @@
                 <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img1')?>" alt="chevroletLogo">
                 <h2><?php the_field('nombre_marca1')?></h2>
                 <p><?php the_field('slogan_marca1')?></p>
-                <button type="button" class="btn btn-luxury"><?php the_field('txtBtn_marca1')?></button>
+                <button type="button" class="btn btn-luxury"><?php the_field('txtbtn_marca1')?></button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
                 <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img2')?>" alt="lamborghiniLogo">
                 <h2><?php the_field('nombre_marca2')?></h2>
                 <p><?php the_field('slogan_marca2')?> las carreteras</p>
-                <button type="button" class="btn btn-luxury"><?php the_field('txtBtn_marca2')?></button>
+                <button type="button" class="btn btn-luxury"><?php the_field('txtbtn_marca2')?></button>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 text-center">
                 <img class="bd-placeholder-img brand-img-size" src="<?php the_field('marca_img3')?>" alt="fordLogo">
                 <h2><?php the_field('nombre_marca3')?></h2>
                 <p><?php the_field('slogan_marca3')?></p>
-                <button type="button" class="btn btn-luxury"><?php the_field('txtBtn_marca3')?></button>
+                <button type="button" class="btn btn-luxury"><?php the_field('txtbtn_marca3')?></button>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
