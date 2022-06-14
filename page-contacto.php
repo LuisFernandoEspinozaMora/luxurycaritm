@@ -3,10 +3,11 @@
 
 <main>
 
-    <div class="hero formulario text-center">
-        <h1>contactenos</h1>
+    <div>
+        <div class="hero formulario text-center">
+            <h1>contactenos</h1>
+        </div>
     </div>
-
 
     <div class="container information">
         <div class="row text-center">
