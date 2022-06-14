@@ -88,7 +88,8 @@ footer {
 
 .brands-section {
     margin: 0;
-    padding: 5em 0;
+    padding: 0;
+    padding-top: 5em;
     background: url("http://luxurycars.test/wp-content/uploads/2022/04/backgroundBrandsSection-scaled.webp");
     background-size: cover;
 }
@@ -294,3 +295,7 @@ color: #17E6FF;
 }
 
 /*fin Pagina Reserva*/
+ 
+@media screen and (max-width:800px){
+    
+}
