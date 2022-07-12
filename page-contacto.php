@@ -40,8 +40,11 @@
             <div class="text-center">
 
                 <fieldset class="fieldset-area">
+
+                <?php echo do_shortcode("[contact-form-7 id='526' title='contacto']"); ?>
+
+                
                     <div class="form-group">
-                        <!--<label for="asunto">Asunto</label>-->
                         <input type="text" class="form-control" id="asunto" placeholder="Asunto">
                     </div>
 
