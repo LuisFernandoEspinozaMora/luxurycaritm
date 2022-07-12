@@ -43,7 +43,7 @@
 
                 <?php echo do_shortcode("[contact-form-7 id='526' title='contacto']"); ?>
 
-                
+                <!--
                     <div class="form-group">
                         <input type="text" class="form-control" id="asunto" placeholder="Asunto">
                     </div>
@@ -75,7 +75,8 @@
                     <div class="form-group">
                         <textarea class="form-control" id="exampleFormControlTextarea1" cols="20" rows="3" placeholder="Mensaje"></textarea>
                     </div>
-
+                    -->
+                    
                 </fieldset>
                 <div class="btn_centrado">
                     <button type="submit" class="btn btn-luxury">Enviar</button>
