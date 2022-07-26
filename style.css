@@ -107,7 +107,7 @@ footer {
     object-fit: contain;
 }
 
-.btn-luxury {
+.btn-luxury{
     width: 30%;
     font-weight: 600;
     color: #E3E4E5;
@@ -215,10 +215,6 @@ footer {
 }
 
 
-.fieldset-area div{
-    padding-top: 2rem;
-}
-
 .information{
     padding-top: 2.8rem;
 }
@@ -252,6 +248,31 @@ color: #17E6FF;
     margin-top: 2rem;
 }
 
+.text-center{
+    padding-top: 2rem;
+}
+
+#nf-label-field-1,#nf-label-field-2,#nf-label-field-3,#nf-label-field-13,#nf-label-field-14 {
+    font-weight: 200;
+}
+
+#nf-field-4{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#nf-field-4{
+    font-weight: 600;
+    color: #E3E4E5;
+    background-color: transparent;
+    border: 3px solid #17E6FF;
+    border-radius: .75em;
+}
+
+#nf-field-4:hover{
+background-color: #17E6FF;
+color: #232426;;
+}
 
 .btn_centrado{
     display: flex;
