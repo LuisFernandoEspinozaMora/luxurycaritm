@@ -33,7 +33,7 @@
 
         <h3 class="text-center">llena esto si tienes alguna duda</h3>
 
-        <p>(<span>*</span>) campos obligatorios</p>
+        <!--<p>(<span>*</span>) campos obligatorios</p>-->
 
         <div class="">
 
@@ -41,7 +41,8 @@
 
                 <fieldset class="fieldset-area">
 
-                <?php echo do_shortcode("[contact-form-7 id='526' title='contacto']"); ?>
+                <?php echo do_shortcode("[ninja_form id=3]"); ?>
+                	
 
                 <!--
                     <div class="form-group">
@@ -78,9 +79,6 @@
                     -->
                     
                 </fieldset>
-                <div class="btn_centrado">
-                    <button type="submit" class="btn btn-luxury">Enviar</button>
-                </div>
             </div>
 
         </div>
