@@ -66,7 +66,7 @@
             </div>
             <div class="col-sm-3 mx-sm-5">
                 <img class= "img-fluid"src="<?php the_field('img_spec2')?>" alt="part">
-                <h4 class="text-center mt-2"><?php the_field('titulo_spec2')?></h4>
+                <h4 class="text-center mt-2"><?php the_field('title_c2')?></h4>
                 <h5 class="text-center mb-2"><?php the_field('descripcion_spec2')?></h5>
                 <div class="row justify-content-center">
                     <button id="price_2" type="button" data-itemtitle="<?php the_field('title_c2')?>" data-price="<?php the_field('price_c2')?>" onclick="addFeature('price_2')" class="btn  btn-primary btn-luxury"><?php if (!get_field('onenglish')): ?>Agregar<?php else: ?>Add<?php endif ?></button>
