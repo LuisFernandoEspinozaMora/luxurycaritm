@@ -3,6 +3,15 @@ const routes_img=document.getElementById("routes_img_cars");
 const img_top=document.getElementById("img_top");
 const total=document.getElementById("total_amount");
 const featureContainer=document.getElementById("item_list");
+let labels;
+
+if(routes_img.dataset.onenglish){
+    labels=['Add','remove']
+}else{
+    labels=['Agregar','Quitar']
+}
+
+
 
 
 
@@ -22,16 +31,16 @@ function changeImage(index) {
 
 function addFeature(id){
     const actualButton=document.getElementById(id)
-    
-    if(!actualButton.outerText.localeCompare("Quitar")){
+    //!actualButton.outerText.localeCompare("Quitar")
+    if(!actualButton.outerText.localeCompare(labels[1])){
         total.innerHTML=parseInt(total.outerText)-parseInt(actualButton.dataset.price);
         deleteDiv("new"+id)
-        actualButton.innerHTML="Agregar";
+        actualButton.innerHTML=labels[0];
         
     }else{
         total.innerHTML=parseInt(total.outerText)+parseInt(actualButton.dataset.price);
         addDiv("new"+id,actualButton.dataset.itemtitle, actualButton.dataset.price);
-        actualButton.innerHTML="Quitar";
+        actualButton.innerHTML=labels[1];
 
        
     }
